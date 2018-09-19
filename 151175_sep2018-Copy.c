@@ -1,5 +1,5 @@
 // postavuvanje konekcii za Keypad
-char keypadPort at PORTD
+char keypadPort at PORTD;
 
 // postavuvanje konekcii za LCD
 
@@ -114,8 +114,8 @@ void main() {
       
       
 
-   } while(counter_podeseni < 3)
-
+   } while(counter_podeseni < 3);
+	}
    counter_podeseni = 0;
     // semaforot e vkluchen
 
